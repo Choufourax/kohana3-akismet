@@ -1,4 +1,4 @@
-<?php defined('SYSPATH') or die(" {o,o}<br /> |)__)<br /> -\"-\"-<br />O RLY?!");
+<?php defined('SYSPATH') or die('No direct script access.');
 
 class Controller_Akismet extends Controller {
 
@@ -9,9 +9,8 @@ class Controller_Akismet extends Controller {
             'comment_author'    => 'Author',
             'comment_content'   => 'Content',
         );
-
         $akismet = Akismet::factory($comment)->is_spam();
-        echo Kohana::debug($akismet);
+        echo Debug::vars($akismet);
     }
 
 }

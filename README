@@ -1,0 +1,16 @@
+2014-07-22
+Compatibility with Kohana 3.3
+@ author Erwan Maire Choufourax
+@ website wwww.upyupy.fr
+@ webiste wwww.bwat.fr
+----------------------------
+
+1. Change files names case to match the file/class naming conventions
+http://kohanaframework.org/3.3/guide/kohana/upgrading#psr-0-support-fileclass-naming-conventions
+
+2. Change the call of debug function
+http://kohanaframework.org/3.3/guide/kohana/debugging
+// Deprecated :
+echo Kohana::debug($akismet);
+// replaced by :
+echo Debug::vars($akismet);

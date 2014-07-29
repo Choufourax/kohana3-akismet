@@ -1,4 +1,4 @@
-<?php defined('SYSPATH') or die(" {o,o}<br /> |)__)<br /> -\"-\"-<br />O RLY?!");
+<?php defined('SYSPATH') or die('No direct script access.');
 /**
  * Akismet class. Based on http://akismet.com/development/api/
  *
@@ -10,7 +10,7 @@
 class Kohana_Akismet {
 
     // Akismet API version, server host and port
-    const AKISMET_VERSION = '1.11';
+    const AKISMET_VERSION = '3.0.1';
     const AKISMET_HOST = 'rest.akismet.com';
     const AKISMET_PORT = 80;
 

@@ -1,14 +1,10 @@
-<?php defined('SYSPATH') or die(" {o,o}<br /> |)__)<br /> -\"-\"-<br />O RLY?!");
-
+<?php defined('SYSPATH') or die('No direct script access.');
 return array(
-
     /**
      * Use of the Akismet API requires an API key, which are currently only
      * being provided along with accounts to WordPress.com.
      */
     'key' => 'YOUR_API_KEY',
-
     'server'    => 'rest.akismet.com',
-    'port'      => 80,
-
+    'port'      => 80
 );

@@ -1,5 +1,4 @@
-<?php defined('SYSPATH') or die(" {o,o}<br /> |)__)<br /> -\"-\"-<br />O RLY?!");
-
+<?php defined('SYSPATH') or die('No direct script access.');
 class Akismet extends Kohana_Akismet {
 
 }
